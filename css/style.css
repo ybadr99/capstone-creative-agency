@@ -417,3 +417,8 @@ footer .container {
 .footer-logo img {
   width: 100%;
 }
+
+.dark {
+  background-color: #414245;
+  color: white;
+}

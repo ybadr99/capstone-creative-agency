@@ -63,8 +63,7 @@
 .event {
   max-width: 100%;
   height: 30rem;
-  background:
-    linear-gradient(rgba(236, 82, 66, 0.6), rgba(236, 82, 66, 0.7)),
+  background: linear-gradient(rgba(236, 82, 66, 0.6), rgba(236, 82, 66, 0.7)),
     url("../images/events/event-1.jpg");
   background-size: cover;
   display: flex;
@@ -72,9 +71,18 @@
   justify-content: center;
 }
 
+@media (min-width: 768px) {
+  .events {
+    flex-direction: row;
+  }
+
+  .event {
+    width: 50%;
+  }
+}
+
 .e-2 {
-  background:
-    linear-gradient(rgba(236, 82, 66, 0.6), rgba(236, 82, 66, 0.7)),
+  background: linear-gradient(rgba(236, 82, 66, 0.6), rgba(236, 82, 66, 0.7)),
     url("../images/events/event-2.jpg");
   background-size: cover;
 }
