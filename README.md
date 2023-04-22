@@ -151,7 +151,7 @@ If you like this project:thumbsup:
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> I would like to thank Microverse team and their dedicated reviewrs
+> I would like to thank [Cindy Shin](https://www.behance.net/adagio07) the [author of the original design](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) that gives me the idea of the project.
 
 <!-- LICENSE -->
 
