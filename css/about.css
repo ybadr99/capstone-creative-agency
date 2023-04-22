@@ -1,0 +1,102 @@
+/* ABOUT PAGE */
+
+.about .container {
+  text-align: center;
+}
+
+.landing-content {
+  max-width: 100%;
+}
+
+.about .landing-text {
+  background-color: white;
+  border: 0.5px solid var(--gray-color);
+}
+
+.about .email {
+  font-size: 1.6rem;
+  font-weight: bold;
+  line-height: 1.4;
+  color: var(--main-color);
+  border-bottom: 0.5px solid var(--main-color);
+}
+
+/* CREATEIVE SECTION */
+
+.logo-section {
+  padding: 4.8rem 0;
+  text-align: center;
+  border-bottom: 1px solid var(--gray-color);
+}
+
+.logo-section .secondary-heading {
+  color: var(--main-color);
+  line-height: 1.4;
+}
+
+.logo-box {
+  padding: 3.6rem;
+  border: 1px solid var(--gray-color);
+}
+
+.logo-box img {
+  max-width: 60%;
+}
+
+/* EVENTS SECTION */
+.events-section {
+  padding: 4.8rem 0;
+  text-align: center;
+  border-bottom: 1px solid var(--gray-color);
+}
+
+.events-section .secondary-heading {
+  color: var(--main-color);
+}
+
+.events {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.event {
+  max-width: 100%;
+  height: 30rem;
+  background:
+    linear-gradient(rgba(236, 82, 66, 0.6), rgba(236, 82, 66, 0.7)),
+    url("../images/events/event-1.jpg");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media (min-width: 768px) {
+  .events {
+    flex-direction: row;
+  }
+
+  .event {
+    width: 50%;
+  }
+}
+
+.e-2 {
+  background:
+    linear-gradient(rgba(236, 82, 66, 0.6), rgba(236, 82, 66, 0.7)),
+    url("../images/events/event-2.jpg");
+  background-size: cover;
+}
+
+.event .date {
+  color: white;
+  font-size: 4.8rem;
+  font-weight: 700;
+}
+
+.event .name {
+  color: white;
+  font-size: 2.4rem;
+  font-weight: 700;
+}
