@@ -119,8 +119,13 @@ nav {
 }
 
 .landing-content {
-  transform: translateY(30%);
   max-width: 70rem;
+}
+
+@media (min-width: 768px) {
+  .landing-content {
+    transform: translateY(30%);
+  }
 }
 
 .mobile-menu {
